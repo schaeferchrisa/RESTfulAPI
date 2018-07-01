@@ -2,7 +2,6 @@ exports.findById = function(req, res) {
 	var id = req.params.id;
 
 	const request = require('request');
-	console.log("debug");
 	request({ 
 		url:'https://api.github.com/users/' + id + '/followers', 
 		headers: { 'user-agent': 'cschaefer66' },
