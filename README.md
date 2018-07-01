@@ -1,17 +1,15 @@
 # Get GitHub followers with Node.js-based RESTful API
 
-## Summary:
+## Summary
 
-This project is an API endpoint that allows the user to enter a GitHub account username into a browser and retrieve a JSON object with that user's followers.
+This project is an API endpoint that allows the user to enter a GitHub account username into a browser and retrieve a JSON object with that user's followers. The project demonstrates how to route HTTP requests through Express to a second pre-existing API endpoint. In this case, the script sends requests to the GitHub API.
 
-The technologies used are:
+## Technologies
 
 * [Node](https://nodejs.org/en/) backend JavaScript framework
-* [Express](https://expressjs.com/) web framework for Node
-* [REST]("https://en.wikipedia.org/wiki/Representational_state_transfer") web services
-    
+* [Express](https://expressjs.com/) web framework for Node   
 	
-## How to test files:
+## How to run files
 
  1. Download and install [Node.js](https://nodejs.org/en/)
  2. Download all GitHub files from this project into a folder
